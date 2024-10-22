@@ -30,33 +30,6 @@
     --chart-4: 205 62% 40%;
     --chart-5: 175 62% 40%;
   }
-
-  .dark {
-    --background: 265 62% 8%;
-    --foreground: 0 0% 100%;
-    --card: 265 62% 10%;
-    --card-foreground: 0 0% 100%;
-    --popover: 265 62% 10%;
-    --popover-foreground: 0 0% 100%;
-    --primary: 265 62% 56%;
-    --primary-foreground: 0 0% 100%;
-    --secondary: 265 50% 20%;
-    --secondary-foreground: 0 0% 100%;
-    --muted: 265 50% 20%;
-    --muted-foreground: 265 62% 70%;
-    --accent: 265 50% 25%;
-    --accent-foreground: 0 0% 100%;
-    --destructive: 0 85% 60%;
-    --destructive-foreground: 0 0% 100%;
-    --border: 265 62% 30%;
-    --input: 265 62% 30%;
-    --ring: 265 62% 56%;
-    --chart-1: 265 62% 56%;
-    --chart-2: 295 62% 60%;
-    --chart-3: 235 62% 60%;
-    --chart-4: 205 62% 60%;
-    --chart-5: 175 62% 60%;
-  }
 }
 
 @layer base {

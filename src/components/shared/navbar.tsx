@@ -36,23 +36,17 @@ export function Navbar() {
 
         {/* desktop */}
         <div className="hidden items-center justify-between lg:flex">
-          <div className="flex items-center space-x-5 lg:gap-x-10">
-            <Logo className="h-10 lg:h-12" />
-            <div className="flex items-center gap-x-5">
-              {links.map((link) => (
-                <Link
-                  key={link.label}
-                  href={link.href}
-                  className="hover:text-primary font-medium text-gray-800 transition-colors"
-                >
-                  {link.label}
-                </Link>
-              ))}
-            </div>
-          </div>
-          <div className="flex items-center gap-x-2">
-            <Button variant="ghost">Log in</Button>
-            <Button>Sign up</Button>
+          <Logo className="h-10 lg:h-12" />
+          <div className="flex items-center gap-x-5">
+            {links.map((link) => (
+              <Link
+                key={link.label}
+                href={link.href}
+                className="hover:text-primary font-medium text-gray-800 transition-colors"
+              >
+                {link.label}
+              </Link>
+            ))}
           </div>
         </div>
       </Container>

@@ -2,6 +2,7 @@ import "./globals.css";
 import { Manrope } from "next/font/google";
 import { cn } from "@/lib/utils";
 import { type Metadata } from "next";
+import { ClerkProvider } from "@clerk/nextjs";
 
 import Script from "next/script";
 
@@ -20,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={cn(manrope.className, "antialiased")}>
       <body>
-        {children}
+        <ClerkProvider>{children}</ClerkProvider>
         <Script src="https://fast.wistia.net/assets/external/E-v1.js" />
         <Script src="https://fast.wistia.com/embed/medias/l8o2z44w6d.jsonp" />
       </body>
